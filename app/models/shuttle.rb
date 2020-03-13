@@ -1,3 +1,4 @@
+
 class Shuttle
     attr_reader :model, :capacity 
     @@all = []
