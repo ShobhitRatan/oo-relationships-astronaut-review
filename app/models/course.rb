@@ -12,4 +12,11 @@ class Course
     def self.all 
         @@all 
     end 
+    def enrollments 
+        Enrollment.all.select do |enrollment| 
+            enrollment.course == self 
+        end 
+    end 
+    
+
 end 
