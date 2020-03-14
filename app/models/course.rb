@@ -25,5 +25,4 @@ class Course
             puts "This class is full. Please register for another class." 
         end 
     end 
-    
 end 
