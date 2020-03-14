@@ -7,6 +7,7 @@ class Astronaut
         @specialty = specialty
         @@all << self
     end
+<<<<<<< HEAD
     def self.all
         @@all
     end 
@@ -32,4 +33,14 @@ class Astronaut
             puts "Sorry, this mission is already full!" 
         end 
     end 
+=======
+
+    def self.all
+        @@all
+    end
+
+
+
+
+>>>>>>> Robert
 end

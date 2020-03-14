@@ -3,11 +3,19 @@ class Shuttle
     attr_reader :model, :capacity 
     @@all = []
 
+<<<<<<< HEAD
+=======
+    attr_reader :model, :capacity 
+
+    @@all = []
+
+>>>>>>> Robert
     def initialize(model, capacity)
         @model = model 
         @capacity = capacity 
         Shuttle.all << self 
     end 
+<<<<<<< HEAD
     def self.all 
         @@all 
     end 
@@ -33,4 +41,15 @@ class Shuttle
             mission.astronaut 
         end 
     end 
+=======
+
+    def self.all 
+        @@all 
+    end 
+
+    def add_astronaut
+        
+    end
+
+>>>>>>> Robert
 end
